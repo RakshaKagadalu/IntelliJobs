@@ -1,0 +1,47 @@
+{
+  "name": "final-project-webdevs",
+  "version": "1.0.0",
+  "description": "1. Summary\r 2. User Stories\r 3. Domain Diagram",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build-client": "cd ../webapp && npm run build",
+    "server": "nodemon server --ignore webapp",
+    "webapp": "npm start --prefix webapp",
+    "start": "concurrently --kill-others-on-fail \" npm run server\" \" npm run webapp\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neu-mis-info6150-spring-2022/final-project-webdevs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neu-mis-info6150-spring-2022/final-project-webdevs/issues"
+  },
+  "homepage": "https://github.com/neu-mis-info6150-spring-2022/final-project-webdevs#readme",
+  "devDependencies": {
+    "concurrently": "^7.1.0",
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "express-async-errors": "^3.1.1",
+    "express-mongo-sanitize": "^2.2.0",
+    "express-rate-limit": "^6.4.0",
+    "helmet": "^5.0.2",
+    "http-status-codes": "^2.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.3",
+    "mongoose": "^6.3.0",
+    "morgan": "^1.10.0",
+    "react-icons": "^4.3.1",
+    "recharts": "^2.1.9",
+    "validator": "^13.7.0",
+    "xss-clean": "^0.1.1"
+  }
+}

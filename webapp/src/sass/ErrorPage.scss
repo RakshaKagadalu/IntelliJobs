@@ -1,0 +1,19 @@
+img {
+  max-width: 50% !important;
+  max-height: 50%;
+  display: block;
+  margin-bottom: 2rem;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  color: var(--grey-500);
+  text-align: initial;
+}
+a {
+  color: var(--primary-500);
+  border: 2px black;
+  text-decoration: underline;
+  text-transform: capitalize;
+}

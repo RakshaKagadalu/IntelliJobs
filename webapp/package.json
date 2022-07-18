@@ -1,0 +1,58 @@
+{
+  "name": "webapp",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fullcalendar/daygrid": "^5.11.0",
+    "@fullcalendar/react": "^5.11.1",
+    "@syncfusion/ej2-react-schedule": "^20.1.50",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.1.1",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^0.26.1",
+    "emailjs-com": "^3.2.0",
+    "history": "^5.3.0",
+    "modal": "^1.2.0",
+    "moment": "^2.29.3",
+    "normalize.css": "^8.0.1",
+    "react": "^18.0.0",
+    "react-datetime": "^3.1.1",
+    "react-dom": "^18.0.0",
+    "react-icons": "^4.3.1",
+    "react-modal": "^3.14.4",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "5.0.1",
+    "recharts": "^2.1.9",
+    "styled-components": "^5.3.5",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "sass": "npx sass src/pages/sass/Jobs.scss src/pages/sass/dist/main.css"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "sass": "^1.50.0"
+  },
+  "proxy": "http://localhost:5001"
+}

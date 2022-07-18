@@ -1,0 +1,88 @@
+.navCom {
+  height: var(--nav-height);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 1px 0px 0px rgba(0, 0, 0, 0.1);
+  color: var(--grey-51) !important;
+  z-index:1;
+  .logo {
+    margin-top: 10%;
+    display: flex;
+    align-items: center;
+    width: 100px;
+  }
+  .nav-center {
+    display: flex;
+    width: 90vw;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .toggle-btn {
+    background: transparent;
+    border-color: transparent;
+    font-size: 1.75rem;
+    color: var(--grey-51);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  background: var(--grey-900);
+  .btn-container {
+    position: relative;
+    margin-bottom: 4em;
+  }
+  .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0 0.5rem;
+    position: relative;
+    box-shadow: var(--shadow-2);
+  }
+
+  .dropdown {
+    position: absolute;
+    //top: 40px;
+    left: 0;
+    width: 100%;
+    background: var(---grey-700);
+    box-shadow: var(--shadow-2);
+    padding: 0.5rem;
+    text-align: center;
+    visibility: hidden;
+    border-radius: var(--borderRadius);
+  }
+  .show-dropdown {
+    visibility:inherit;
+    background-color: white;
+    
+  }
+  .dropdown-btn {
+    background: white;
+    border-color: transparent;
+    color: var(---grey-800);
+    letter-spacing: var(--letterSpacing);
+    text-transform: capitalize;
+    cursor: pointer;
+    color: Black;
+  }
+  .logo-text {
+    display: none;
+    margin: 0;
+  }
+  @media (min-width: 992px) {
+    position: sticky;
+    top: 0;
+
+    .nav-center {
+      width: 90%;
+    }
+    .logo {
+      display: none;
+    }
+    .logo-text {
+      display: block;
+    }
+  }
+}

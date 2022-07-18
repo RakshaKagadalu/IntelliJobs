@@ -1,0 +1,36 @@
+.regCom {
+  display: grid;
+  align-items: center;
+  background-color: #0b2533;
+}
+
+.formReg {
+  max-width: 500px !important;
+  border-top: 5px solid var(--grey-500);
+  margin-left: 33% !important;
+  margin-top: 3% !important;
+  padding: 30px !important;
+  color: var(--grey-51);
+  background-color: #0b2533 !important;
+}
+
+h3 {
+  text-align: center;
+}
+
+.btn {
+  margin-top: 1rem;
+}
+.member-btn {
+  background: transparent;
+  border: transparent;
+  color: var(--primary-500);
+  cursor: pointer;
+  letter-spacing: var(--letterSpacing);
+}
+
+h1 {
+  margin-top: 50%;
+  color: antiquewhite;
+  text-align: center;
+}
