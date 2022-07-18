@@ -1,6 +1,6 @@
 # IntelliJobs
 
-## INFO6150 - Web design and User Experience - Final Project
+##  - Web design - Final Project
 
 <table>
     <thead>
